@@ -10,7 +10,7 @@ require Exporter;
 our @ISA       = qw(Exporter);
 our @EXPORT    = qw();
 our @EXPORT_OK = qw(stamp);
-our $VERSION   = 1.00;
+our $VERSION   = 1.01;
 
 sub stamp {
     my $i;
@@ -49,7 +49,7 @@ This method returns a timestamp in the form yyyymmddHHMMSS.
 
 =head1 AUTHOR
 
-Steve Shoopak <velaki@aol.com>
+Steve Shoopak <shoop@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
